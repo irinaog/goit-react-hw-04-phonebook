@@ -1,0 +1,42 @@
+.contactItem{
+    display: grid;
+    grid-template-columns: 1fr 250px 100px 1fr;
+}
+
+.contactName{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #093028;
+
+    grid-column: 2;
+}
+
+.deleteBtn {
+    width: 100%;
+    height: 30px;
+    align-self: center;
+    justify-self: start;
+
+    font-family: 'Arima', cursive;
+    font-weight: 500;
+
+
+
+    background: linear-gradient(to left, #43c6ac, #f8ffae);
+    background-color: none;
+    /* border:1px solid #43c6ac43; */
+    border: none;
+    border-radius: 2px;
+    color: #093028;
+    /* transition: background 250ms ease-in-out; */
+    cursor: pointer;
+    transition: background-color 250ms ease-in, color 250ms;
+
+}
+
+.deleteBtn:hover {
+    background: none;
+    background-color: #43c6ac;
+    color: white;
+    /* border: none; */
+}

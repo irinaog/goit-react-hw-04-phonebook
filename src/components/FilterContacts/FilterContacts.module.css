@@ -1,0 +1,31 @@
+.filterContainer{
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+    grid-template-rows: 20px 20px;
+    gap:8px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filterTitle{
+grid-column: 2;
+
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 700;
+
+color: #093028;
+justify-self: center;
+}
+
+.filterInput{
+    grid-row: 2;
+    grid-column: 2;
+    width: 200px;
+    justify-self: center;
+
+    border: 1px solid #f8ffae;
+    border-radius: 2px;
+box-shadow: 0 0 20px 0.5px #43c6ac;
+}
